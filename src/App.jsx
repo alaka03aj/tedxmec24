@@ -1,11 +1,18 @@
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
-      Hello      
+    <div className="min-h-screen bg-black bg-[url('/bg_lines.png')] bg-cover bg-center bg-no-repeat w-full">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
