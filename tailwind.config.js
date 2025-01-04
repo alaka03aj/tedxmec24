@@ -27,7 +27,7 @@ export default {
         }
       },
       animation: {
-        text: 'text 5s ease infinite',
+        text: 'text 10s ease infinite',
       },
       keyframes: {
         text: {
@@ -40,8 +40,12 @@ export default {
             'background-position': 'bottom center',
           },
         },
+        
       },
-
+    },
+  },
+  variants: {
+    extend: {
     },
   },
   plugins: [
