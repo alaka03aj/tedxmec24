@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         helveticaCompressed: ['Helvetica Compressed', 'sans-serif'],
         helveticaLight: ['Helvetica Light', 'sans-serif'],
+        helvetica: ['Helvetica', 'sans-serif'],
       },
       colors: {
         primary: {

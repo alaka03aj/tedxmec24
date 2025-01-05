@@ -6,7 +6,6 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
         <img src={tedxmeclogo} alt="TEDxMEC" width={128} />
       </div>
-      
     </nav>
   );
 };
