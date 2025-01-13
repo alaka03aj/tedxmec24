@@ -1,10 +1,10 @@
 import tedxmeclogo from "../assets/tedxmec_logo.png";
-import { TiSocialLinkedin } from "react-icons/ti";
-import { AiFillInstagram } from "react-icons/ai";
+// import { TiSocialLinkedin } from "react-icons/ti";
+// import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary-black1">
+    <footer className="bottom-0 bg-secondary-black1">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
@@ -15,13 +15,13 @@ const Footer = () => {
           </a>
           <ul className="flex flex-row justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-5">
             <li>
-              <a href="#" className="hover:underline">
-                <AiFillInstagram className="text-2xl" />
+              <a href="https://www.instagram.com/tedxmec/" className="hover:underline">
+                Instagram
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
-                <TiSocialLinkedin className="text-2xl" />
+              <a href="https://www.linkedin.com/company/tedxmec/" className="hover:underline">
+                LinkedIn
               </a>
             </li>
           </ul>

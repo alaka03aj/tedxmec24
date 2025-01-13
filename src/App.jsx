@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-black bg-[url('/bg_lines.png')] bg-cover bg-center bg-no-repeat w-full">
+    <div className="min-h-screen bg-black bg-[url('/bg_lines.png')] bg-top bg-repeat w-full">
       <BrowserRouter>
         <Navbar />
         <Routes>
