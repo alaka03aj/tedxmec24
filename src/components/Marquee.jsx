@@ -2,7 +2,7 @@ const Marquee = () => {
   return (
     <div className="relative flex overflow-x-hidden text-secondary-white2">
       <div className="py-12 animate-marquee whitespace-nowrap">
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
+        <span className="text-4xl mx-4 border-secondary-black2 border-2 p- rounded-lg border-dashed">
           Coming Soon
         </span>
         <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">

@@ -5,8 +5,8 @@ const About = () => {
   return (
     <>
       <div className="text-center">
-        <span className="text-4xl font-helvetica text-transparent bg-clip-text bg-gradient-to-r from-white to-secondary-black2">
-          ABOUT US
+        <span className="text-5xl font-bold font-helvetica text-secondary-white2">
+          About Us
         </span>
       </div>
       <div className="flex flex-col justify-stretch gap-5 p-10 lg:flex-row lg:items-stretch lg:px-32">

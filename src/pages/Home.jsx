@@ -1,6 +1,6 @@
 import Marquee from "../components/Marquee";
 import About from "../components/About";
-
+import Faq from "../components/Faq";
 const Home = () => {
   return (
     <>
@@ -19,7 +19,8 @@ const Home = () => {
         </div>
       </div>
       <About />
-      <Marquee />
+      <Faq />
+      {/* <Marquee /> */}
     </>
   );
 };
