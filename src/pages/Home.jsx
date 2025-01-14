@@ -11,7 +11,7 @@ const Home = () => {
               TEDxMEC 2025
             </span>
           </h1>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-helveticaLight">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-helvetica">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-secondary-black2">
               COMING SOON
             </span>
