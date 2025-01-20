@@ -3,7 +3,7 @@ import { FAQDetails } from "../data/FAQDetails";
 
 const Faq = () => {
   return (
-    <div className="relative min-h-screen flex flex-col justify-center overflow-hidden text-secondary-white2">
+    <div className="min-h-screen flex flex-col justify-center overflow-hidden text-secondary-white2">
       <div className="w-full max-w-2xl mx-auto px-4 md:px-6 py-24">
         <div className="text-center flex flex-col gap-4">
           <h1 className="text-5xl font-bold font-helvetica">You got questions?</h1>

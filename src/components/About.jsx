@@ -3,10 +3,10 @@ import { AboutDetails } from "../data/AboutDetails";
 
 const About = () => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col justify-center">
       <div className="text-center">
         <span className="text-5xl font-bold font-helvetica text-secondary-white2">
-          About Us
+          Who Are We?
         </span>
       </div>
       <div className="flex flex-col justify-stretch gap-5 p-10 lg:flex-row lg:items-stretch lg:px-32">
@@ -19,7 +19,7 @@ const About = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
