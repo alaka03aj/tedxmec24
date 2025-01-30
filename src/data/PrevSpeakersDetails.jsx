@@ -1,32 +1,92 @@
 export const prevSpeakerDetails = [
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-    {
-        image: "https://www.tedxmec.in/assets/speakers-trial/janakips.jpg",
-        name: "Janaki Easwar",
-        designation: "Artist"
-    },
-]
+  {
+    image: "src/assets/PrevSpeakers/image 26.png",
+    name: "Deepak Dev",
+    designation: "Music Composer and Producer",
+    desc: "Deepak Dev, a renowned composer, is celebrated for his work in Malayalam and South Indian cinema, with notable films like Chronic Bachelor, Puthiya Mukham, Urumi, and Lucifer. Known for blending Indian traditions with modern sounds, he has won multiple awards, including the Kerala State Film Award for Best Background Score.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-7.png",
+    name: "Alphons Joseph",
+    designation: "Music Director",
+    desc: "Alphons Joseph, a versatile music director in Malayalam cinema, is redefining playback music with his expertise in Carnatic and Western styles. As a guitarist, singer, and composer, his innovative and soulful works have carved a unique niche in the industry.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/image 25.png",
+    name: "Advin Roy Netto",
+    designation: "UI/UX Designer, Google",
+    desc: "Advin Roy Netto, a UI/UX designer at Google, inspires many with his resilience and determination. An educator and social media influencer, he engages thousands of aspiring designers. His 'Fixing the Broken' series showcases his dedication to social change by presenting creative solutions to improve Indian public services.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/image 21.png",
+    name: "Jilu Joseph",
+    designation: "CEO, Webandcrafts",
+    desc: "Jilu Joseph, CEO of Webandcrafts, has revolutionized digital marketing for global brands like Lulu, IKEA, and VStar. Her leadership has redefined industry standards, showcasing her vision and determination in transforming businesses and leaving a lasting impact.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/image 27.png",
+    name: "Manas Madhu",
+    designation: "Entrepreneur, Co-founder of Beyond Snack",
+    desc: "Manas Madhu, co-founder of Beyond Snack, gained recognition on Shark Tank India as the first to secure a deal with two sharks. Known for offering healthy, natural snacks, he passionately advocates for entrepreneurship and sustainability, sharing insights at various events.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-6.png",
+    name: "Siddhi Mahajankatti",
+    designation: "Actor and Data Scientist",
+    desc: "Siddhi Mahajankatti, an actor, dancer, anchor, and data scientist, debuted in 2015 with the play \"Charandas Chor\" and gained fame with the Malayalam film \"Aanandham\" (2016). Known for her versatility, she has appeared in web series, talk shows, and is currently working on a Tamil feature film.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network.png",
+    name: "Chitra Iyer",
+    designation: "Singer",
+    desc: "Chitra Iyer, a renowned playback singer in the Malayalam film industry, is known for her work with the duo Bernie and Ignatius and songs in \"Swapnakoodu\" and \"Chronic Bachelor\". Trained in Carnatic and Hindustani music, she is also an advocate for animal welfare, supporting elephant rehabilitation and stray animal causes.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/image 23.png",
+    name: "Nikhil Gopalakrishnan",
+    designation: "CEO of Pentad Securities",
+    desc: "Nikhil Gopalakrishnan, the visionary behind Money Talks, is a respected speaker known for promoting financial literacy among Malayalis globally. With over three lakh subscribers, he is also the CEO of Pentad Securities, a brokerage specializing in financial products. Nikhil has made a significant impact on financial education, empowering others with knowledge.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-4.png",
+    name: "Sachin Warrier",
+    designation: "Playback Singer and Composer",
+    desc: "Sachin Warrier is a popular playback singer and composer in Malayalam cinema, known for hits like \"Muthuchippi Poloru\" in \"Thattathin Marayathu\". He has released two singles, composed music for \"Aanandam\", and created ad jingles for national brands. Sachin also leads his own band, SWAY.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-11.png",
+    name: "Khyrunnisa A",
+    designation: "Writer",
+    desc: "Khyrunnisa A is an award-winning writer of children's and adult fiction, best known for creating the comic character Butterfingers in \"Tinkle\". She has authored the \"Butterfingers\" series, two adult books, two collections of animal stories, and a short novel. Khyrunnisa is a full-time writer based in Thiruvananthapuram.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-1.png",
+    name: "Vishak Nair",
+    designation: "Actor",
+    desc: "Vishak Nair is one of Kerala's most charismatic young actors. He gained recognition on his debut performance in the 2016 film Aanandam directed by Ganesh Raj which made him a household name. He also appears in the title role in the series Kili.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/image 24.png",
+    name: "Nisthar Sait",
+    designation: "Actor",
+    desc: "Nisthar Sait, an acclaimed Indian actor, began as a theatre artist in 1985 in Thiruvananthapuram. Known for his lead role in the 1999 series \"Naranathu Bhranthan\", he entered cinema with the award-winning \"Ozhivudivasathe Kali\" (2015). Renowned for his performances in \"Varathan\" and \"Bheeshma Parvam\", he has made a significant impact on Malayalam cinema.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-5.png",
+    name: "Janaki Easwar",
+    designation: "Singer and Songwriter",
+    desc: "Thirteen-year-old Janaki Easwar made history as the youngest Indian contestant on *The Voice* Australia in August 2021. A talented singer and songwriter, she inspired many with her magical voice. Her debut single, \"Clown,\" was featured in the International Songwriting Competition 2021, and her song \"I've Been Waiting\" was highlighted in Rolling Stone India.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-3.png",
+    name: "Naveen Richard",
+    designation: "Comedian and Actor",
+    desc: "Naveen Richard is one of India's most versatile comedians, web series writers, and actors. Richard is known for his sci-fi themed web series, Star Boyz, mockumentary web series, Better Life Foundation (BLF), Pushpavalli (2017), and Die Trying (2018). He has also toured the country for his first solo special, Don't Make that Face.",
+  },
+  {
+    image: "src/assets/PrevSpeakers/Network-2.png",
+    name: "Soorya Krishnamoorthy",
+    designation: "Founder-Director of SOORYA Stage and Film Society",
+    desc: "Soorya Krishnamoorthy is a renowned figure in arts and culture, best known as the founder-director of the SOORYA Stage and Film Society. He organizes the Soorya Festival, India's longest and one of its most prestigious cultural events, lasting over a hundred days and featuring top Indian classical dancers and musicians.",
+  },
+];

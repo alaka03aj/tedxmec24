@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -10,6 +11,8 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
         <Footer />
       </BrowserRouter>

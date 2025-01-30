@@ -1,32 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 import { CiDesktopMouse2 } from "react-icons/ci";
 
-import Marquee from "../components/Marquee";
 import About from "../components/About";
 import Faq from "../components/Faq";
 import PrevSpeakers from "../components/PrevSpeakers";
 
 const Home = () => {
   const aboutRef = useRef(null); // Reference for About section
-  const [isScrolling, setIsScrolling] = useState(false); // State to track scrolling
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!isScrolling) {
-        aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-        setIsScrolling(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [isScrolling]);
 
   const handleButtonClick = () => {
+    // Smoothly scroll to About section on button click
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -56,15 +40,15 @@ const Home = () => {
       </div>
 
       {/* About Section */}
-      <div ref={aboutRef}>
+      <div ref={aboutRef} id="about-us">
         <About />
       </div>
 
       {/* Other Sections */}
       <PrevSpeakers />
       <Faq />
-      {/* <Marquee /> */}
 
+      {/* React Router Routes */}
       <Routes>
         <Route path="about" element={<About />} />
       </Routes>
