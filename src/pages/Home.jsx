@@ -19,7 +19,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="flex items-center justify-center h-screen text-white">
         <div className="text-center">
-          <h1 className="font-helveticaCompressed text-5xl md:text-6xl lg:text-9xl">
+          <h1 className="font-helveticaCompressed text-[72px] lg:text-9xl">
             <span className="animate-text text-transparent bg-clip-text bg-gradient-to-t from-primary-deepRed to-primary-red">
               TEDxMEC 2025
             </span>

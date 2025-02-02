@@ -11,7 +11,7 @@ const Navbar = () => {
   const showNavbar = () => setToggle(!toggle);
 
   return (
-    <nav className="fixed top-0 w-full bg-secondary-black1 items-center flex p-4 px-16 text-secondary-white2 z-50">
+    <nav className="fixed top-0 w-full bg-secondary-black1 items-center flex p-4 text-secondary-white2 z-50 md:px-12 lg:px-16">
       <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
         <img src={tedxmeclogo} alt="TEDxMEC" width={128} />
         <button

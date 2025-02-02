@@ -30,7 +30,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="my-6 sm:mx-auto border-stone-700 lg:my-8" />
-        <span className="block text-sm text-secondary-black2 sm:text-center">
+        <span className="block text-sm text-secondary-black2 text-center sm:text-left">
           © All Rights Reserved by TEDxMEC.
         </span>
       </div>
