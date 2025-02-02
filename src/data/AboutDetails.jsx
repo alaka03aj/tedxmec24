@@ -1,7 +1,7 @@
 export const AboutDetails = [
   {
     heading1: "WHAT IS",
-    heading2: "TEDx?",
+    heading2: "TEDx",
     content: "TEDx is a remarkable grassroots initiative that brings the spirit of TED's \"ideas worth spreading\" to local communities worldwide. These independently organized events mirror the format of TED conferences, featuring speakers who share innovative ideas and inspiring stories."
   },
   {

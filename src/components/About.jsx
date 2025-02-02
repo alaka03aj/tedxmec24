@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center">
       <div className="text-center">
-        <span className="text-5xl font-bold font-helvetica text-secondary-white2">
+        <span className="text-[36px] font-bold font-helvetica text-secondary-white2 md:text-5xl">
           Who Are We?
         </span>
       </div>
