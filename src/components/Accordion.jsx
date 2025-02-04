@@ -19,7 +19,7 @@ export default function Accordion({ children, title, id, active = false }) {
           aria-expanded={accordionOpen}
           aria-controls={`accordion-text-${id}`}
         >
-          <span>{title}</span>
+          <span className='font-helvetica'>{title}</span>
           <svg
             className="fill-primary-red shrink-0 ml-8"
             width="16"
@@ -56,7 +56,7 @@ export default function Accordion({ children, title, id, active = false }) {
         }`}
       >
         <div className="overflow-hidden">
-          <p className="pb-3">{children}</p>
+          <p className="pb-3 font-helvetica text-[14px] md:text-[16px]">{children}</p>
         </div>
       </div>
     </div>
