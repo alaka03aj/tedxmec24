@@ -7,13 +7,13 @@ const PrevSpeakerCard = ({ image, name, designation, desc }) => {
         </div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-secondary-black1 bg-opacity-90 text-white rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <h1 className="font-bold">{name}</h1>
-          <p className="text-center p-4 text-[14px] md:text-[16px]">{desc}</p>
+          <h1 className="font-helvetica font-bold">{name}</h1>
+          <p className="font-helvetica text-center p-4 text-[14px] md:text-[16px]">{desc}</p>
         </div>
       </div>
       <div className="text-secondary-white2 group-hover:hidden">
-        <h1 className="font-bold">{name}</h1>
-        <p className="text-sm">{designation}</p>
+        <h1 className="font-helvetica font-bold">{name}</h1>
+        <p className="font-helvetica text-sm">{designation}</p>
       </div>
     </div>
   );
