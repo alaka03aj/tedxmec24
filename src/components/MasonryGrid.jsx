@@ -2,22 +2,22 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const MasonryGrid = () => {
     const gallery_images = [
-      {id: 1, src: "https://d2856clr1j4q66.cloudfront.net/2.jpg"},
-      {id: 2, src: "https://d2856clr1j4q66.cloudfront.net/3.jpg"},
-      {id: 3, src: "https://d2856clr1j4q66.cloudfront.net/4.jpg"},
-      {id: 4, src: "https://d2856clr1j4q66.cloudfront.net/5.jpg"},
-      {id: 5, src: "https://d2856clr1j4q66.cloudfront.net/6.jpg"},
-      {id: 6, src: "https://d2856clr1j4q66.cloudfront.net/7.jpg"},
-      {id: 7, src: "https://d2856clr1j4q66.cloudfront.net/8.JPG"},
-      {id: 8, src: "https://d2856clr1j4q66.cloudfront.net/9.JPG"},
-      {id: 9, src: "https://d2856clr1j4q66.cloudfront.net/10.JPG"},
-      {id: 10, src: "https://d2856clr1j4q66.cloudfront.net/11.JPG"},
-      {id: 11, src: "https://d2856clr1j4q66.cloudfront.net/12.JPG"},
-      {id: 12, src: "https://d2856clr1j4q66.cloudfront.net/13.JPG"},
-      {id: 13, src: "https://d2856clr1j4q66.cloudfront.net/14.JPG"},
-      {id: 14, src: "https://d2856clr1j4q66.cloudfront.net/15.JPG"},
-      {id: 15, src: "https://d2856clr1j4q66.cloudfront.net/1.JPG"},
-      {id: 16, src: "https://d2856clr1j4q66.cloudfront.net/16.JPG"},
+      {id: 1, src: "gallery/2.webp"},
+      {id: 2, src: "gallery/3.webp"},
+      {id: 3, src: "gallery/4.webp"},
+      {id: 4, src: "gallery/5.webp"},
+      {id: 5, src: "gallery/6.webp"},
+      {id: 6, src: "gallery/7.webp"},
+      {id: 7, src: "gallery/8.webp"},
+      {id: 8, src: "gallery/9.webp"},
+      {id: 9, src: "gallery/10.webp"},
+      {id: 10, src: "gallery/11.webp"},
+      {id: 11, src: "gallery/12.webp"},
+      {id: 12, src: "gallery/13.webp"},
+      {id: 13, src: "gallery/14.webp"},
+      {id: 14, src: "gallery/15.webp"},
+      {id: 15, src: "gallery/1.webp"},
+      {id: 16, src: "gallery/16.webp"},
 
     ]
     return (
