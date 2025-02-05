@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="flex items-center justify-center h-screen text-white">
+      <div className="flex items-center justify-center h-screen text-white bg-[url('/bg-water.gif')] bg-cover w-full">
         <div className="text-center">
           <h1 className="font-helveticaCompressed text-[64px] sm:text-[98px] md:text-[110px] lg:text-9xl">
             <span className="animate-text text-transparent bg-clip-text bg-gradient-to-t from-primary-deepRed to-primary-red">
