@@ -9,7 +9,7 @@ const About = () => {
           Who Are We?
         </span>
       </div>
-      <div className="flex flex-col justify-stretch gap-5 p-10 lg:flex-row lg:items-stretch lg:px-32">
+      <div className="flex flex-col justify-stretch gap-5 py-10 px-4 md:px-16 lg:flex-row lg:items-stretch">
         {AboutDetails.map((about, index) => (
           <Infocard
             key={index}

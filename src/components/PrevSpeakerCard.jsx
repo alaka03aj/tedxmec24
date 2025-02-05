@@ -8,7 +8,7 @@ const PrevSpeakerCard = ({ image, name, designation, desc }) => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-secondary-black1 bg-opacity-90 text-white rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300">
           <h1 className="font-helvetica font-bold">{name}</h1>
-          <p className="font-helvetica text-center p-4 text-[14px] md:text-[16px]">{desc}</p>
+          <p className="font-helvetica text-center p-4 text-sm">{desc}</p>
         </div>
       </div>
       <div className="text-secondary-white2 group-hover:hidden">

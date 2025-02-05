@@ -3,10 +3,10 @@ import tedxmeclogo from "../assets/tedxmec_logo.png";
 const Footer = () => {
   return (
     <footer className="bottom-0 bg-secondary-black1">
-      <div className="w-full p-10 md:py-8 lg:px-32">
+      <div className="w-full py-10 px-4 md:px-16">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="#"
+            href="/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse justify-center"
           >
             <img src={tedxmeclogo} className="h-8" alt="TEDxMEC Logo" />
