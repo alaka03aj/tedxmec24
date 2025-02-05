@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const MasonryGrid = () => {
     const gallery_images = [
@@ -23,7 +24,7 @@ const MasonryGrid = () => {
       <div className="columns-1 sm:columns-2 lg:columns-3 py-10 md:py-20 gap-4">
         {gallery_images.map((image) => (
           <div key={image.id} className="mb-4 break-inside-avoid">
-            <img src={image.src} alt="gallery" className="w-full object-cover rounded-lg" />
+            <LazyLoadImage src={image.src} alt="gallery" className="w-full object-cover rounded-lg" />
           </div>
         ))}
       </div>
