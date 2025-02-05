@@ -25,6 +25,7 @@ html {
   src: url('/fonts/Helvetica.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 
 ::-webkit-scrollbar {

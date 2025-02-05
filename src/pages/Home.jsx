@@ -19,12 +19,12 @@ const Home = () => {
       {/* Hero Section */}
       <div className="flex items-center justify-center h-screen text-white bg-[url('/bg-water.gif')] bg-cover w-full">
         <div className="text-center">
-          <h1 className="font-helveticaCompressed text-[64px] sm:text-[98px] md:text-[110px] lg:text-9xl">
-            <span className="animate-text text-transparent bg-clip-text bg-gradient-to-t from-primary-deepRed to-primary-red">
+          <h1 className="font-helvetica font-black text-[48px] tracking-tight sm:text-[82px] md:text-[110px] lg:text-9xl">
+            <span className="text-primary-red">
               TEDxMEC 2025
             </span>
           </h1>
-          <h1 className="text-2xl leading-[1px] md:text-3xl md:leading-[1px] lg:text-4xl font-helvetica">
+          <h1 className="text-2xl leading-[1px] md:text-4xl md:leading-[1px] lg:text-5xl font-helvetica">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-secondary-black2">
               COMING SOON
             </span>
