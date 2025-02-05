@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { NavbarDetails } from "../data/NavbarDetails";
 import tedxmeclogo from "../assets/tedxmec_logo.png";
 import { GoArrowRight } from "react-icons/go";
-import { TiThMenuOutline } from "react-icons/ti";
+import { CgMenu } from "react-icons/cg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,12 +13,12 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-secondary-black1 items-center flex p-4 text-secondary-white2 z-50 md:px-12 lg:px-16">
       <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
-        <img src={tedxmeclogo} alt="TEDxMEC" width={128} />
+        <img src={tedxmeclogo} alt="TEDxMEC" className="w-24 md:w-32 lg:w-36" />
         <button
           className="flex justify-end md:hidden ring-1 ring-black rounded"
           onClick={showNavbar}
         >
-          <TiThMenuOutline className="text-xl" />
+          <CgMenu className="text-xl" />
         </button>
         <ul
           className={`${
