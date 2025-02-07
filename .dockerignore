@@ -1,8 +1,5 @@
-# Node.js modules (dependencies are installed fresh in the container)
-node_modules
-
-# Build artifacts (not needed unless explicitly required for debugging)
-dist
+node_modules/
+dist/
 
 # Logs
 *.log
@@ -10,30 +7,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment files (avoid exposing sensitive data)
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
-# System and editor files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.vscode/
-.idea/
-*.iml
-
-# Git files
 .git
 .gitignore
-
-# Docker files
 Dockerfile
 .dockerignore
-
-# Temporary files and cache
-/tmp
-.cache

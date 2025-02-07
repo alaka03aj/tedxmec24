@@ -2,8 +2,8 @@ import { TeamDetails } from "../data/TeamDetails";
 const Team = () => {
   return (
     <div className="scroll-smooth overflow-hidden">
-      <div className="w-full px-12 sm:px-16 md:pt-10 md:pb-10 md:px-16 justify-between">
-        <div className=" text-secondary-white2 py-[5rem]">
+      <div className="w-full px-12 sm:px-16 md:py-10 md:px-16 justify-between">
+        <div className=" text-secondary-white2 pt-20 pb-10 md:py-20">
           <h1 className="font-bold font-helvetica text-[36px] text-center sm:text-5xl">
             Meet The Team
           </h1>
@@ -15,7 +15,7 @@ const Team = () => {
               className="relative overflow-hidden rounded-xl aspect-[999/1000]"
             >
               <div className="absolute inset-0">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-red/90 z-10" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-red/85 z-10" />
                 <img
                   src={member.img}
                   alt={member.name}

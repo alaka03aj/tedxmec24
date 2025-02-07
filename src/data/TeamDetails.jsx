@@ -2,7 +2,7 @@ export const TeamDetails = [
     {
         name: "Parvathi Vinod",
         role: "Licensee",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Parvathi.png"
     },
     {
         name: "Malavika R Nambiar",
@@ -17,7 +17,7 @@ export const TeamDetails = [
     {
         name: "Alaka A J",
         role: "Tech Head",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Alaka.jpg"
     },
     {
         name: "Anna Jiju",
@@ -32,7 +32,7 @@ export const TeamDetails = [
     {
         name: "Rahan Jose",
         role: "Operations",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Rahan.HEIC"
     },
     {
         name: "Ann Rose Biju",
@@ -42,7 +42,7 @@ export const TeamDetails = [
     {
         name: "A Theertha",
         role: "Marketing/Sponsorship",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Theertha.JPG"
     },
     {
         name: "Sahiba Haroon",
@@ -52,7 +52,7 @@ export const TeamDetails = [
     {
         name: "Deepak P Nair",
         role: "Content",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Deepak.JPG"
     },
     {
         name: "Jahfar Jamal",

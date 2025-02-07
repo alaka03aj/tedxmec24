@@ -4,6 +4,7 @@ import Gallery from "./pages/Gallery";
 import Team from "./pages/Team";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
+        <Contact />
         <Footer />
       </BrowserRouter>
     </div>
