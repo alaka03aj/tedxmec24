@@ -4,7 +4,6 @@ import { CiDesktopMouse2 } from "react-icons/ci";
 
 import About from "../components/About";
 import Faq from "../components/Faq";
-import Contact from "../components/Contact";
 import PrevSpeakers from "../components/PrevSpeakers";
 
 const Home = () => {

@@ -2,106 +2,101 @@ export const TeamDetails = [
     {
         name: "Parvathi Vinod",
         role: "Licensee",
-        img: "team/Parvathi.png"
+        img: "team/Parvathi.webp"
     },
     {
         name: "Malavika R Nambiar",
         role: "Co-Organizer",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Malavika.webp"
+    },
+    {
+        name: "Rahan Jose",
+        role: "Chief of Operations",
+        img: "team/Rahan.webp"
+    },
+    {
+        name: "Nandasree Viju",
+        role: "Head of Creatives",
+        img: "team/Nandasree.webp"
+    },
+    {
+        name: "Sahiba Haroon",
+        role: "Chief of Curation",
+        img: "team/Sahiba.webp"
     },
     {
         name: "Joanna Cherian",
         role: "Speaker Head",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Joanna.webp"
     },
     {
         name: "Alaka A J",
         role: "Tech Head",
-        img: "team/Alaka.jpg"
+        img: "team/Alaka.webp"
     },
     {
         name: "Anna Jiju",
         role: "Community Head",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        img: "team/Anna.webp"
     },
     {
         name: "Aisha Siyad",
         role: "Events Lead",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
-    },
-    {
-        name: "Rahan Jose",
-        role: "Operations",
-        img: "team/Rahan.HEIC"
+        img: "team/Aisha.webp"
     },
     {
         name: "Ann Rose Biju",
-        role: "Volunteers",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Volunteers Lead",
+        img: "team/Ann.webp"
     },
     {
         name: "A Theertha",
-        role: "Marketing/Sponsorship",
-        img: "team/Theertha.JPG"
-    },
-    {
-        name: "Sahiba Haroon",
-        role: "Curation",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Marketing Manager",
+        img: "team/Theertha.webp"
     },
     {
         name: "Deepak P Nair",
-        role: "Content",
-        img: "team/Deepak.JPG"
+        role: "Content Manager",
+        img: "team/Deepak.webp"
     },
     {
         name: "Jahfar Jamal",
-        role: "Social Media",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Social Media Manager",
+        img: "team/Jahfar.webp"
     },
     {
         name: "Liyan",
-        role: "Media",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
-    },
-    {
-        name: "Martin Joseph",
-        role: "Hospitality",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
-    },
-    {
-        name: "Mary John",
-        role: "Ambience",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Production Head",
+        img: "team/Liyan.webp"
     },
     {
         name: "Aadithya Madhav",
-        role: "Video",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Executive Producer",
+        img: "team/Aadithya.webp"
     },
     {
-        name: "Nandasree Viju",
-        role: "Design",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        name: "Martin Joseph",
+        role: "Hospitality Manager",
+        img: "team/Martin.webp"
+    },
+    {
+        name: "Mary John",
+        role: "Ambience Manager",
+        img: "team/Mary.webp"
     },
     {
         name: "Antony George Mampilly",
-        role: "Events Sub",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Events Subhead",
+        img: "team/Antony.webp"
     },
     {
         name: "Sankar Vijay Kamala",
-        role: "Marketing/Sponsorship Sub",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
-    },
-    {
-        name: "Nitin Ajayakumar",
-        role: "Design Sub",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Marketing & Sponsorship Subhead",
+        img: "team/Kamala.webp"
     },
     {
         name: "Anagha D",
-        role: "Content Sub",
-        img: "https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960"
+        role: "Content Subhead",
+        img: "team/Anagha.webp"
     }
 ];

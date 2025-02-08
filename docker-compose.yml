@@ -1,24 +1,19 @@
-version: '3.2'
+version: "3.2"
 services:
   tedx-web:
     image: lukify13/tedxmec-website:1.0
-    build: 
-      context: .         
+    build:
+      context: .
       dockerfile: Dockerfile
     volumes:
       - app_data:/app
     environment:
       - NODE_ENV=production
-      # - VIRTUALPORT=5173
-      # - VIRTUAL_HOST=tedx.mec.ac.in
-    ports:
-      - "5173:5173"
-
+      - VIRTUALPORT=5173
+      - VIRTUAL_HOST=tedx.mec.ac.in
 volumes:
-  app_data:
-
-# networks:
-#   default:
-#     external:
-#       name: mec
-
+  app_data: null
+networks:
+  default:
+    external:
+      name: mec

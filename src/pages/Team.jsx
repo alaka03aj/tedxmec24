@@ -10,24 +10,17 @@ const Team = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {TeamDetails.map((member) => (
-            <div
-              key={member.name}
-              className="relative overflow-hidden rounded-xl aspect-[999/1000]"
-            >
-              <div className="absolute inset-0">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-red/85 z-10" />
+            <div key={member.name} className="flex flex-col rounded-2xl overflow-hidden border border-primary-deepRed">
+              <div>
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  className=""
                 />
-              </div>
-
-              <div className="absolute bottom-0 left-0 right-0 p-6 z-20 font-helvetica">
-                <h3 className="text-white text-2xl font-semibold mb-1">
-                  {member.name}
-                </h3>
-                <p className="text-secondary-white2 leading-tight">{member.role}</p>
+                <div className=" bg-black text-secondary-white2 text-center py-2 font-helvetica">
+                  <h1 className="font-bold text-lg text-primary-red">{member.name.toUpperCase()}</h1>
+                  <p className="text-xs">{member.role.toUpperCase()}</p>
+                </div>
               </div>
             </div>
           ))}
