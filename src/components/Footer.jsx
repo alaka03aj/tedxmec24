@@ -11,7 +11,7 @@ const Footer = () => {
           >
             <img src={tedxmeclogo} className="h-8" alt="TEDxMEC Logo" />
           </a>
-          <ul className="flex flex-row justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-5">
+          <ul className="flex flex-row justify-center items-center mb-6 text-sm font-medium font-helvetica text-gray-400 gap-5">
           <li>
               <a href="mailto:reachtedxmec@gmail.com" className="hover:underline">
                 Email
@@ -30,7 +30,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="my-6 sm:mx-auto border-stone-700 lg:my-8" />
-        <span className="block text-sm text-secondary-black2 text-center sm:text-left">
+        <span className="block text-sm text-secondary-black2 font-helvetica text-center sm:text-left">
           © All Rights Reserved by TEDxMEC.
         </span>
       </div>

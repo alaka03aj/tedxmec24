@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul
           className={`${
             toggle ? "flex" : "hidden"
-          } flex-col justify-center items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
+          } font-helvetica flex-col justify-center items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
         >
           {NavbarDetails.map((details, index) => {
             return (

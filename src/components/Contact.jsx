@@ -21,7 +21,7 @@ const Contact = () => {
             </a>{" "}
             or reach out to us on the following numbers.
           </p>
-          <div className="grid grid-cols-1 px-4 sm:px-16 md:px-0 md:gap-2 md:grid-cols-3 gap-4 mt-6">
+          <div className="font-helvetica grid grid-cols-1 px-4 sm:px-16 md:px-0 md:gap-2 md:grid-cols-3 gap-4 mt-6">
         {contacts.map((contact) => (
           <a
             key={contact.name}
