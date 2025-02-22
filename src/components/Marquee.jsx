@@ -1,39 +1,39 @@
 const Marquee = () => {
   return (
-    <div className="relative flex overflow-x-hidden text-secondary-white2">
-      <div className="py-12 animate-marquee whitespace-nowrap">
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p- rounded-lg border-dashed">
-          Coming Soon
+    <div className="my-5 lg:my-10 relative flex overflow-x-hidden text-primary-red bg-black font-helvetica border-y-2 border-primary-red">
+      <div className="py-2 animate-marquee whitespace-nowrap">
+        <span className="text-xl xl:text-4xl mx-4">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4">
+          REGISTER NOW
         </span>
       </div>
 
-      <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+      <div className="absolute top-0 py-2 animate-marquee2 whitespace-nowrap">
+        <span className="text-xl xl:text-4xl mx-4 ">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4 ">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4 ">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4 ">
+          REGISTER NOW
         </span>
-        <span className="text-4xl mx-4 border-secondary-black2 border-2 p-2 rounded-lg border-dashed">
-          Coming Soon
+        <span className="text-xl xl:text-4xl mx-4 ">
+          REGISTER NOW
         </span>
       </div>
     </div>
