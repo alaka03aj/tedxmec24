@@ -39,7 +39,7 @@ const Navbar = () => {
           } text-white mx-auto md:mx-0 md:flex md:mt-0 items-center justify-center font-medium bg-black px-1 p-2 rounded-lg mt-4 w-32 border-solid border-2 border-primary-red hover:bg-primary-red transition-colors duration-300 ease-in-out`}
         >
           <div className="flex justify-center items-center space-x-1">
-            <a href="https://bit.ly/TEDxMEC-EarlyBird">Get Tickets </a>
+            <a href="https://bit.ly/TEDxMEC2025">Get Tickets </a>
             <GoArrowRight className="text-white text-xl" />
           </div>
         </button>

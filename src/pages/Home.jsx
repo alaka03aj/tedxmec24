@@ -5,6 +5,7 @@ import Faq from "../components/Faq";
 import PrevSpeakers from "../components/PrevSpeakers";
 import Bento from "../components/Bento";
 import Marquee from "../components/Marquee";
+import Speakers from "../components/Speakers";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </div>
       <Marquee />
       <About />
+      <Speakers />
       <PrevSpeakers />
       <Faq />
 
