@@ -18,7 +18,7 @@ const Bento = () => {
         </div>
 
         <div className="row-span-1 col-span-3 p-4 xl:row-span-1 xl:col-span-1 border-primary-red border-2 rounded-xl bg-primary-red flex justify-center items-center text-4xl text-center font-helvetica text-black font-semibold hover:bg-black hover:text-primary-red">
-          <a href="http://bit.ly/TEDxMEC2025">
+          <a href="https://bit.ly/TEDxMEC2025">
             GET PHASE 2 TICKETS NOW!!
           </a>
         </div>

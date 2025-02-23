@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   tedx-web:
-    image: tedxmec/tedxmec-website
+    image: tedxmec/tedxmec-website25
     build:
       context: .
       dockerfile: Dockerfile
