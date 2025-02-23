@@ -10,7 +10,7 @@ import Speakers from "../components/Speakers";
 const Home = () => {
   return (
     <>
-      <div className="flex items-center justify-center h-screen text-white bg-cover w-full">
+      <div className="flex items-center justify-center text-white bg-cover w-full">
         <Bento />
       </div>
       <Marquee />

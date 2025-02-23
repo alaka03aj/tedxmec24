@@ -3,7 +3,7 @@ import { AboutDetails } from "../data/AboutDetails";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center">
+    <div className="my-20 flex flex-col justify-center">
       <div className="text-center">
         <span className="text-[36px] font-bold font-helvetica text-secondary-white2 md:text-5xl">
           WHO ARE WE?
