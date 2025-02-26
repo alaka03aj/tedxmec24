@@ -15,24 +15,22 @@ export const SpeakersData = [
         image: "Speakers/nayana.png",
         name: "Nayana Shyam",
         designation: "Director, Actor, Writer",
-        desc: "Nayana Shyam is a filmmaker who began her career as a content creator at Pocket Aces Pictures Pvt. Ltd., where she directed the viral video Fashion Conversations With Mom (40M+ views). She has directed popular web series such as Adulting (2018) and Please Find Attached (2020) and worked as a creative editor at Netflix from 2020 to 2022. Her most recent work, Sisterhood, released in June 2024, was well-received by audiences and critics alike for its authentic portrayal of adolescent                   struggles and friendships."
+        desc: "Nayana Shyam is a filmmaker who began her career as a content creator at Pocket Aces Pictures Pvt. Ltd., where she directed the viral video Fashion Conversations With Mom (40M+ views). She has directed popular web series such as Adulting (2018) and Please Find Attached (2020) and worked as a creative editor at Netflix from 2020 to 2022. Her most recent work, Sisterhood, released in June 2024, was well-received by audiences and critics alike for its authentic portrayal of adolescent struggles and friendships."
     },
-    // {
-    //     image: "",
-    //     name: "",
-    //     designation: "",
-    //     desc: ""
-    // },
-    // {
-    //     image: "",
-    //     name: "",
-    //     designation: "",
-    //     desc: ""
-    // },
-    // {
-    //     image: "",
-    //     name: "",
-    //     designation: "",
-    //     desc: ""
-    // },
-]
+    {
+        image: "Speakers/gokul.png",
+        name: "Gokul Gopalakrishnan",
+        designation: "Comic Artist, Writer",
+        desc: (
+            <>
+                Gokul Gopalakrishnan is the creator of the comic strips <em>Small Talk</em>, <em>As City Is</em> and a contributor to <em>The Small Picture</em>. He works to navigate the themes of politics, culture, and human emotions with sharp wit and depth. Gokul was also a curator and participating artist for two comic art shows - <em>Flaneur in the City</em> at Gallery SKE, Bangalore and <em>The Flaneur in Kochi</em> at David Hall, Kochi. He also writes about comic history and comic semiotics for both academic and popular press.
+            </>
+        )
+    },
+    {
+        image: "Speakers/anand.png",
+        name: "Anand Madhusoodhanan",
+        designation: "Music Composer, Actor, Screenwriter",
+        desc: "Anand Madhusoodhanan is a music composer, actor, and screenwriter in Malayalam cinema. He made his debut in music composition with 'Molly Aunty Rocks' and later created beautiful soundtracks for films such as 'Pretham,' 'Punyalan Private Limited,' and 'Njan Marykutty.' His famous romantic song, 'Poodimeesha Mulakkana Kaalam,' continues to evoke joy and love in people’s hearts. Transitioning from music to screenwriting, he began with 'Krishnankutty Pani Thudangi' and started his acting career with 'Vishesham,' where he skillfully managed writing, acting, and directing. Anand is a multifaceted and versatile musical maestro."
+    },
+];
